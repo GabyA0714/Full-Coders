@@ -42,8 +42,11 @@
 	leer cantidadVenta
 		
 	Si stockGolosina >= cantidadVenta
-		Escribir "Venta realizada con exito de ", nombreBuscado
+
+        Escribir "No hay stock disponible ", nombreBuscado
+		
 	Sino
-		Escribir "No hay stock disponible ", nombreBuscado
+
+        Escribir "Venta realizada con exito de ", nombreBuscado
 	FinSi
 FinAlgoritmo
